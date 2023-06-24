@@ -14,6 +14,8 @@ def counter(stih):
         new.append(count)
     return new
 
+new = list(map(lambda x: sum()))
+
 new = counter(stih)
 
 if all(new):
